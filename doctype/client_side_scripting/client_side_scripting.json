@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CSS-{MM}-{YYYY}-{####}",
+ "creation": "2024-10-07 14:28:10.264668",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "enable",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "column_break_i5yr",
+  "email",
+  "mob_no",
+  "dob",
+  "age",
+  "femily_member_section",
+  "family"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Side Scripting",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name "
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name "
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name "
+  },
+  {
+   "fieldname": "column_break_i5yr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email "
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age "
+  },
+  {
+   "fieldname": "femily_member_section",
+   "fieldtype": "Section Break",
+   "label": "Femily Member"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Table",
+   "label": "Family",
+   "options": "Family Members"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-08 13:24:18.056015",
+ "modified_by": "Administrator",
+ "module": "Demoapp",
+ "name": "Client Side Scripting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:AP-{YYYY}-{MM}-{###}",
+ "creation": "2024-10-09 11:30:10.615554",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "audit_plan_name",
+  "audit_item_name",
+  "audit_type",
+  "department",
+  "planned_start_date",
+  "planned_end_date",
+  "lead_audits",
+  "audit_team"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Audit Plan",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "audit_plan_name",
+   "fieldtype": "Data",
+   "label": "Audit Plan Name "
+  },
+  {
+   "fieldname": "audit_item_name",
+   "fieldtype": "Data",
+   "label": "Audit Item Name "
+  },
+  {
+   "fieldname": "audit_type",
+   "fieldtype": "Link",
+   "label": "Audit Type ",
+   "options": "Audit Types"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department ",
+   "options": "Departments"
+  },
+  {
+   "fieldname": "planned_start_date",
+   "fieldtype": "Date",
+   "label": "Planned Start Date "
+  },
+  {
+   "fieldname": "planned_end_date",
+   "fieldtype": "Date",
+   "label": "Planned End Date"
+  },
+  {
+   "fieldname": "lead_audits",
+   "fieldtype": "Data",
+   "label": "Lead Audits "
+  },
+  {
+   "fieldname": "audit_team",
+   "fieldtype": "Data",
+   "label": "Audit Team "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-09 16:18:14.055172",
+ "modified_by": "Administrator",
+ "module": "Demoapp",
+ "name": "Audit Plan",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

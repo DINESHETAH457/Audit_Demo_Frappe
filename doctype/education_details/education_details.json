@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-01 15:39:53.076018",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school_name",
+  "school_board_name",
+  "column_break_kwwe",
+  "10th_marksheet",
+  "12th_marksheet",
+  "graduate_marksheet"
+ ],
+ "fields": [
+  {
+   "fieldname": "school_name",
+   "fieldtype": "Data",
+   "label": "School Name"
+  },
+  {
+   "fieldname": "school_board_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "School Board Name",
+   "options": "State Board\nCBSC Board\nISSC Board\nOthers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_kwwe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "10th_marksheet",
+   "fieldtype": "Attach Image",
+   "label": "10th Marksheet "
+  },
+  {
+   "fieldname": "12th_marksheet",
+   "fieldtype": "Attach",
+   "label": "12th Marksheet "
+  },
+  {
+   "fieldname": "graduate_marksheet",
+   "fieldtype": "Attach Image",
+   "label": "Graduate Marksheet"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-01 15:47:08.085173",
+ "modified_by": "Administrator",
+ "module": "Demoapp",
+ "name": "Education Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

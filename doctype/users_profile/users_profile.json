@@ -1,0 +1,217 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-09-28 16:48:15.738518",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_hhzi",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_dwlr",
+  "date_of_birth",
+  "phone_number",
+  "email",
+  "profile_picture",
+  "address_and_contact_information_section",
+  "address_line_1",
+  "addresss_line_2",
+  "address_line_3",
+  "landmark",
+  "column_break_j6vd",
+  "city",
+  "state",
+  "postal_code",
+  "country",
+  "security_info_tab",
+  "note1",
+  "user_role",
+  "password",
+  "education_details_tab",
+  "note2",
+  "education_info",
+  "column_break_pjxr"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name "
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Birth ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "profile_picture",
+   "fieldtype": "Attach Image",
+   "label": "Profile Picture"
+  },
+  {
+   "fieldname": "column_break_dwlr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_role",
+   "fieldtype": "Data",
+   "label": "User Role",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "collapsible": 1,
+   "fieldname": "section_break_hhzi",
+   "fieldtype": "Section Break",
+   "label": "Basic User Information"
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "addresss_line_2",
+   "fieldtype": "Data",
+   "label": "Addresss Line 2"
+  },
+  {
+   "fieldname": "address_line_3",
+   "fieldtype": "Data",
+   "label": "Address Line 3"
+  },
+  {
+   "fieldname": "landmark",
+   "fieldtype": "Data",
+   "label": "Landmark",
+   "reqd": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Select",
+   "label": "City",
+   "options": "DD\nKL\nMI\nUI"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "State",
+   "options": "DL\nMH\nOD\nKL"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Int",
+   "label": "Postal Code",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "collapsible": 1,
+   "fieldname": "address_and_contact_information_section",
+   "fieldtype": "Section Break",
+   "label": "Address And Contact Information"
+  },
+  {
+   "fieldname": "column_break_pjxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_j6vd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "security_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "Security Info"
+  },
+  {
+   "fieldname": "note1",
+   "fieldtype": "Heading",
+   "label": "Changes you make in \"Security Info\""
+  },
+  {
+   "fieldname": "education_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Education Details "
+  },
+  {
+   "fieldname": "note2",
+   "fieldtype": "Heading",
+   "label": "ou make in \"Education Info\""
+  },
+  {
+   "fieldname": "education_info",
+   "fieldtype": "Table",
+   "label": "Education Info",
+   "options": "Education Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-01 15:53:34.044542",
+ "modified_by": "Administrator",
+ "module": "Demoapp",
+ "name": "Users Profile",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

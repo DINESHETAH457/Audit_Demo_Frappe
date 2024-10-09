@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-09 12:38:58.627829",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "auditor_name",
+  "descriptions",
+  "role"
+ ],
+ "fields": [
+  {
+   "fieldname": "auditor_name",
+   "fieldtype": "Data",
+   "label": "Auditor Name"
+  },
+  {
+   "fieldname": "descriptions",
+   "fieldtype": "Text Editor",
+   "label": "Descriptions"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "label": "Role"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-09 12:41:50.446664",
+ "modified_by": "Administrator",
+ "module": "Demoapp",
+ "name": "Auditors",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
